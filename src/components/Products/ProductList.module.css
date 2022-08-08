@@ -1,0 +1,33 @@
+.products {
+  padding: 0;
+  display: table;
+  margin: 0 auto;
+}
+
+.products ul {
+  margin-right: 20px;
+}
+
+.products li {
+  display: flex;
+  align-items: center;
+  width: 440px;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 14px;
+  background-color: white;
+  margin-bottom: 10px;
+}
+
+.products li svg {
+  color: #3f96b1;
+}
+
+.products img {
+  width: 10%;
+}
+
+.title {
+  margin: 0 20px;
+  width: 300px;
+}
